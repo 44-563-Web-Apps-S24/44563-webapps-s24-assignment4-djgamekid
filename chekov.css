@@ -12,29 +12,18 @@
 
     }
 
-    .direction a:hover {
+    .direction :hover {
         background-color: yellow;
         color: gray;
     }
 
-    .chebutikin {
-        color: red;
-    }
-
-    .irina {
+    .name {
         color: green;
     }
-
-    .vershinin {
-        color: blue;
-    }
-
-    .tuzenbach {
-        color: cyan;
-    }
-
-    .kuligin {
-        color: orange;
+    .name:hover{
+        border: 4px;
+        border-style: double;
+        text-shadow: 2px 2px 15px red;
     }
     table {
         font-family: Arial, Helvetica, sans-serif;
