@@ -1,60 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Working in CSS</title>
-    </head>
-    <body>
-        <h1>Darren Ross does Chekov tonight</h1>
-        <h3>The Three Sisters Anton Chekov</h3>
-        <p><h4>CHEBUTIKIN.</h4> <p>[Angrily]</p> <p>Devil take them all... take them all.... They
-            think I'm a doctor and can cure everything, and I know absolutely
-            nothing, I've forgotten all I ever knew, I remember nothing, absolutely
-            nothing. <p>[OLGA and NATASHA go out, unnoticed by him]</p> Devil take it. Last
-            Wednesday I attended a woman in Zasip--and she died, and it's my fault
-            that she died. Yes... I used to know a certain amount five-and-twenty
-            years ago, but I don't remember anything now. Nothing. Perhaps I'm not
-            really a man, and am only pretending that I've got arms and legs and a
-            head; perhaps I don't exist at all, and only imagine that I walk, and
-            eat, and sleep. <p>[Cries]</p> Oh, if only I didn't exist! <p>[Stops crying;
-            angrily]</p> The devil only knows.... Day before yesterday they were talking
-            in the club; they said, Shakespeare, Voltaire... I'd never read, never
-            read at all, and I put on an expression as if I had read. And so did the
-            others. Oh, how beastly! How petty! And then I remembered the woman
-            I killed on Wednesday... and I couldn't get her out of my mind, and
-            everything in my mind became crooked, nasty, wretched.... So I went and
-            drank....</p>
-            
-            <p>[IRINA, VERSHININ and TUZENBACH enter; TUZENBACH is wearing new and
-            fashionable civilian clothes.]</p>
-            
-            <h4>IRINA.</h4> Let's sit down here. Nobody will come in here.
-            
-            <h4>VERSHININ.</h4> <p>The whole town would have been destroyed if it hadn't been
-            for the soldiers. Good men! <p>[Rubs his hands appreciatively]</p> Splendid
-            people! Oh, what a fine lot!</p>
-            
-            <h4>KULIGIN.</h4> <p>[Coming up to him]</p> What's the time?
-            
-            <h4>TUZENBACH.</h4> It's past three now. It's dawning.
-            
-            <h4>IRINA.</h4> <p>They are all sitting in the dining-room, nobody is going. And
-            that Soleni of yours is sitting there. <p>[To CHEBUTIKIN]</p> Hadn't you better
-            be going to sleep, doctor?</p>
-            
-            <h4>CHEBUTIKIN.</h4> It's all right... thank you.... <p>[Combs his beard.]</p>
-            
-            <h4>KULIGIN.</h4> <p>[Laughs]</p> <p>Speaking's a bit difficult, eh, Ivan Romanovitch!
-            <p>[Pats him on the shoulder]</p> Good man! _In vino veritas_, the ancients
-            used to say.</p>
-            
-            <h4>TUZENBACH.</h4> <p>They keep on asking me to get up a concert in aid of the
-            sufferers.</p>
-            
-            <h4>IRINA.</h4> As if one could do anything....
-            
-            <h4>TUZENBACH.</h4> <p>It might be arranged, if necessary. In my opinion Maria
-            Sergeyevna is an excellent pianist.</p>
-            
-            <h4>KULIGIN.</h4> Yes, excellent!</p>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="chekov.css">
+    <title>Working in CSS</title>
+</head>
+
+<body>
+    <h1>Darren Ross does Chekov tonight</h1>
+    <h3>The Three Sisters Anton Chekov</h3>
+    <p>
+    <h4 class="chebutikin">CHEBUTIKIN.</h4>
+    <p class="direction">[Angrily]</p>
+    <p class="speech">Devil take them all... take them all.... They
+        think I'm a doctor and can cure everything, and I know absolutely
+        nothing, I've forgotten all I ever knew, I remember nothing, absolutely
+        nothing.
+    <p class="direction">[OLGA and NATASHA go out, unnoticed by him]</p>
+    <p class="speech">Devil take it. Last
+        Wednesday I attended a woman in Zasip--and she died, and it's my fault
+        that she died. Yes... I used to know a certain amount five-and-twenty
+        years ago, but I don't remember anything now. Nothing. Perhaps I'm not
+        really a man, and am only pretending that I've got arms and legs and a
+        head; perhaps I don't exist at all, and only imagine that I walk, and
+        eat, and sleep.</p>
+    <p class="direction">[Cries]</p>
+    <p class="speech">Oh, if only I didn't exist!</p>
+    <p class="direction">[Stops crying;
+        angrily]</p>
+    <p class="speech">The devil only knows.... Day before yesterday they were talking
+        in the club; they said, Shakespeare, Voltaire... I'd never read, never
+        read at all, and I put on an expression as if I had read. And so did the
+        others. Oh, how beastly! How petty! And then I remembered the woman
+        I killed on Wednesday... and I couldn't get her out of my mind, and
+        everything in my mind became crooked, nasty, wretched.... So I went and
+        drank....</p>
+
+    <p class="direction">[IRINA, VERSHININ and TUZENBACH enter; TUZENBACH is wearing new and
+        fashionable civilian clothes.]</p>
+
+    <h4 class="irina">IRINA.</h4>
+    <p class="speech">Let's sit down here. Nobody will come in here.</p>
+
+    <h4 class="vershinin">VERSHININ.</h4>
+    <p class="speech">The whole town would have been destroyed if it hadn't been
+        for the soldiers. Good men!</p>
+    <p class="direction">[Rubs his hands appreciatively]</p>
+    <p class="speech">Splendid people! Oh, what a fine lot!</p>
+
+    <h4 class="kuligin">KULIGIN.</h4>
+    <p class="direction">[Coming up to him]</p>
+    <p class="speech">What's the time?</p>
+
+    <h4 class="tuzenbach">TUZENBACH.</h4>
+    <p class="speech">It's past three now. It's dawning.</p>
+
+    <h4 class="irina">IRINA.</h4>
+    <p class="speech">They are all sitting in the dining-room, nobody is going. And
+        that Soleni of yours is sitting there.</p>
+    <p class="direction">[To CHEBUTIKIN]</p>
+    <p class="speech">Hadn't you better be going to sleep, doctor?</p>
+
+    <h4 class="chebutikin">CHEBUTIKIN.</h4>
+    <p class="speech">It's all right... thank you....</p>
+    <p class="direction">[Combs his beard.]</p>
+
+    <h4 class="kuligin">KULIGIN.</h4>
+    <p class="direction">[Laughs]</p>
+    <p class="speech">Speaking's a bit difficult, eh, Ivan Romanovitch!
+    <p class="direction">[Pats him on the shoulder]</p>
+    <p class="speech">Good man! _In vino veritas_, the ancients used to say.</p>
+
+    <h4 class="tuzenbach">TUZENBACH.</h4>
+    <p class="speech">They keep on asking me to get up a concert in aid of the
+        sufferers.</p>
+
+    <h4 class="irina">IRINA.</h4>
+    <p class="speech">As if one could do anything....</p>
+
+    <h4 class="tuzenbach">TUZENBACH.</h4>
+    <p class="speech">It might be arranged, if necessary. In my opinion Maria
+        Sergeyevna is an excellent pianist.</p>
+
+    <h4 class="kuligin">KULIGIN.</h4>
+    <p class="speech">Yes, excellent!</p>
+</body>
+
 </html>
